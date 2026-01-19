@@ -9,48 +9,31 @@ The photos are processed in the cloud, modified, then converted to bytes and sen
 
 Hardest part was getting the printer to work, using someone's packet sniffing solution (Reverse-engineered from the Phonemo app) I could send arbitrary photos to the printer via bluetooth from the Raspberry Pi.
 
-#### Spirit Animal Mode
-Generating your spirit animal: An LLM is asked what spirit animal you look like. It forms a prompt, passes it to Nano Banana.
+Here it is taking a photo:
 
-#### Ted Talk Mode
-The soul reader reaches into a parallel universe where you are giving a Ted Talk...
+<img src="./Assets/taking_photo.gif" />
 
-#### Plushify Mode
-Uses a plushy-trained model. One day I'll push it into an image->3D model like Meshy and print my own plushy.
+<table align="center">
+  <tr>
+    <td align="center">
+      <strong>Choosing Modes</strong><br/>
+      <img src="./Assets/choosing_modes.gif" />
+    </td>
+    <td align="center">
+      <strong>Printing Result</strong><br/>
+      <img src="./Assets/printing.gif" />
+    </td>
+  </tr>
+</table>
 
-#### 1920s London
-The soul reader reaches into a parallel universe where it's you 100 years in the past in Camden, London.
+---
 
-## Parts
-- Raspberry Pi Zero 2
-- Phonomo Printer
-- Raspberry Pi Camera Module 3
-- Unicorn Hat (LED Display)
-- Power Bank
-
-### Back View
+### Some more pictures
 ![Back](./Assets/back.png)
 
-### Holding the Device
 ![Holding](./Assets/holding.png)
 
-### Device Open
 ![Open](./Assets/open.png)
-
----
-
-## Interactions
-
-### Choosing Modes
-![Choosing Modes](./Assets/choosing_modes.gif)
-
-### Taking a Photo
-![Taking Photo](./Assets/taking_photo.gif)
-
-### Printing Result
-![Printing](./Assets/printing.gif)
-
----
 
 ## Prints
 <table align="center">
@@ -71,3 +54,24 @@ The soul reader reaches into a parallel universe where it's you 100 years in the
     </td>
   </tr>
 </table>
+
+#### Spirit Animal Mode
+Generating your spirit animal: An LLM is asked what spirit animal you look like. It forms a prompt, passes it to Nano Banana.
+
+#### Ted Talk Mode
+The soul reader reaches into a parallel universe where you are giving a Ted Talk...
+
+#### Plushify Mode
+Uses a plushy-trained model. One day I'll push it into an image->3D model like Meshy and print my own plushy.
+
+#### 1920s London
+The soul reader reaches into a parallel universe where it's you 100 years in the past in Camden, London.
+
+## Parts
+- Raspberry Pi Zero 2
+- Phonomo Printer
+- Raspberry Pi Camera Module 3
+- Unicorn Hat (LED Display)
+- Power Bank
+
+
